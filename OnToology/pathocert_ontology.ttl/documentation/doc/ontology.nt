@@ -1,0 +1,98 @@
+<https://w3id.org/def/pathocert/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/def/pathocert/> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/def/pathocert/v0.0.1/> .
+<https://w3id.org/def/pathocert/> <http://purl.org/dc/terms/creator> "Aitor Corchero" .
+<https://w3id.org/def/pathocert/> <http://purl.org/dc/terms/description> "A SAREF4WATR extenstion to model incidence, emergency response and Risk Assessment modelling. The main intention of the ontology is to interlink water management information with water quality and risk assessment. This ontology has been elaborated under the PATHOCERT H2020 project."@en .
+<https://w3id.org/def/pathocert/> <http://purl.org/dc/terms/issued> "2021-07-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/def/pathocert/> <http://purl.org/dc/terms/license> <https://opensource.org/licenses/ISC> .
+<https://w3id.org/def/pathocert/> <http://purl.org/dc/terms/modified> "2021-07-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/def/pathocert/> <http://purl.org/dc/terms/publisher> <https://pathocert.eu/> .
+<https://w3id.org/def/pathocert/> <http://purl.org/dc/terms/source> <https://github.com/aolite/PATHOCERTOntology> .
+<https://w3id.org/def/pathocert/> <http://purl.org/dc/terms/title> "Incidence, Emergency Response and Risk Assessment model"@en .
+<https://w3id.org/def/pathocert/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "pathocert" .
+<https://w3id.org/def/pathocert/> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/def/pathocert/" .
+<https://w3id.org/def/pathocert/> <http://www.w3.org/2002/07/owl#versionInfo> "v0.0.1" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://schema.org/affiliation
+<http://schema.org/affiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://schema.org/familyName
+<http://schema.org/familyName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://schema.org/givenName
+<http://schema.org/givenName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://schema.org/name
+<http://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://schema.org/Organization
+<http://schema.org/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://schema.org/Person
+<http://schema.org/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
